@@ -49,3 +49,18 @@ venv/
 .env
 .env.*
 !.env.example
+# Node.js
+frontend/node_modules/
+frontend/.next/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Environment files
+.env
+.env.*
+!.env.example
+# Prophet individual training files
+backend/ml/forecasting/models/prophet_models/
